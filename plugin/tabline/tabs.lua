@@ -27,11 +27,11 @@ local function create_attributes(hover)
   }
   active_separator_attributes = {
     { Foreground = { Color = colors.active.bg } },
-    { Background = { Color = colors.inactive.bg } },
+    { Background = { Color = colors.bar } },
   }
   inactive_separator_attributes = {
     { Foreground = { Color = hover and colors.inactive_hover.bg or colors.inactive.bg } },
-    { Background = { Color = colors.inactive.bg } },
+    { Background = { Color = colors.bar } },
   }
 end
 

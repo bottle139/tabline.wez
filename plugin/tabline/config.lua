@@ -74,6 +74,7 @@ local function get_colors(theme)
       c = { fg = colors.foreground, bg = background },
     },
     tab = {
+      bar = surface,
       active = { fg = colors.ansi[5], bg = surface },
       inactive = { fg = colors.foreground, bg = background },
       inactive_hover = { fg = colors.ansi[6], bg = surface },
